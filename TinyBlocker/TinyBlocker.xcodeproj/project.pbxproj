@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E9AF400F2B735CCE009F849F /* msn.js in Resources */ = {isa = PBXBuildFile; fileRef = E9AF400E2B735CCE009F849F /* msn.js */; };
 		E9B413862B6AE630007E6FB1 /* disabled.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E9B413852B6AE630007E6FB1 /* disabled.pdf */; };
 		E9B413882B6AF2CB007E6FB1 /* blockerListDisabled.json in Resources */ = {isa = PBXBuildFile; fileRef = E9B413872B6AF2CB007E6FB1 /* blockerListDisabled.json */; };
 		E9E10C7E2B59ED080023B2F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E10C7D2B59ED080023B2F4 /* AppDelegate.swift */; };
@@ -62,7 +61,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E9AF400E2B735CCE009F849F /* msn.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = msn.js; sourceTree = "<group>"; };
 		E9B413852B6AE630007E6FB1 /* disabled.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = disabled.pdf; sourceTree = "<group>"; };
 		E9B413872B6AF2CB007E6FB1 /* blockerListDisabled.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerListDisabled.json; sourceTree = "<group>"; };
 		E9E10C7A2B59ED080023B2F4 /* TinyBlocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyBlocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -177,7 +175,6 @@
 		E9E10C9F2B59ED090023B2F4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E9AF400E2B735CCE009F849F /* msn.js */,
 				E9B413852B6AE630007E6FB1 /* disabled.pdf */,
 				E9E10CA02B59ED090023B2F4 /* yt.js */,
 				E9E10CA22B59ED090023B2F4 /* ToolbarItemIcon.pdf */,
@@ -322,7 +319,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9AF400F2B735CCE009F849F /* msn.js in Resources */,
 				E9F7452D2B60F6DB00F6BC1F /* msm.js in Resources */,
 				E9B413862B6AE630007E6FB1 /* disabled.pdf in Resources */,
 				E9E10CA32B59ED090023B2F4 /* ToolbarItemIcon.pdf in Resources */,
