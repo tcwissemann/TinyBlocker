@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9AF400F2B735CCE009F849F /* msn.js in Resources */ = {isa = PBXBuildFile; fileRef = E9AF400E2B735CCE009F849F /* msn.js */; };
+		E9B413862B6AE630007E6FB1 /* disabled.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E9B413852B6AE630007E6FB1 /* disabled.pdf */; };
+		E9B413882B6AF2CB007E6FB1 /* blockerListDisabled.json in Resources */ = {isa = PBXBuildFile; fileRef = E9B413872B6AF2CB007E6FB1 /* blockerListDisabled.json */; };
+		E9E10C7E2B59ED080023B2F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E10C7D2B59ED080023B2F4 /* AppDelegate.swift */; };
+		E9E10C822B59ED080023B2F4 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = E9E10C802B59ED080023B2F4 /* Main.html */; };
+		E9E10C842B59ED080023B2F4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E9E10C832B59ED080023B2F4 /* Icon.png */; };
+		E9E10C862B59ED080023B2F4 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = E9E10C852B59ED080023B2F4 /* Style.css */; };
+		E9E10C882B59ED080023B2F4 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = E9E10C872B59ED080023B2F4 /* Script.js */; };
+		E9E10C8A2B59ED080023B2F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E10C892B59ED080023B2F4 /* ViewController.swift */; };
+		E9E10C8D2B59ED080023B2F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E10C8B2B59ED080023B2F4 /* Main.storyboard */; };
+		E9E10C8F2B59ED080023B2F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9E10C8E2B59ED080023B2F4 /* Assets.xcassets */; };
+		E9E10C972B59ED090023B2F4 /* TinyBlocker Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E9E10C962B59ED090023B2F4 /* TinyBlocker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E9E10C9C2B59ED090023B2F4 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E10C9B2B59ED090023B2F4 /* SafariExtensionHandler.swift */; };
+		E9E10CA12B59ED090023B2F4 /* yt.js in Resources */ = {isa = PBXBuildFile; fileRef = E9E10CA02B59ED090023B2F4 /* yt.js */; };
+		E9E10CA32B59ED090023B2F4 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E9E10CA22B59ED090023B2F4 /* ToolbarItemIcon.pdf */; };
+		E9E10CB92B59ED620023B2F4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E10CB82B59ED620023B2F4 /* Cocoa.framework */; };
+		E9E10CBC2B59ED620023B2F4 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = E9E10CBB2B59ED620023B2F4 /* blockerList.json */; };
+		E9E10CBE2B59ED620023B2F4 /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E10CBD2B59ED620023B2F4 /* ContentBlockerRequestHandler.swift */; };
+		E9E10CC32B59ED620023B2F4 /* Blocker.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E9E10CB62B59ED620023B2F4 /* Blocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E9F7452D2B60F6DB00F6BC1F /* msm.js in Resources */ = {isa = PBXBuildFile; fileRef = E9F7452C2B60F6DB00F6BC1F /* msm.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9E10C982B59ED090023B2F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9E10C722B59ED080023B2F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9E10C952B59ED090023B2F4;
+			remoteInfo = "TinyBlocker Extension";
+		};
+		E9E10CC12B59ED620023B2F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9E10C722B59ED080023B2F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9E10CB52B59ED620023B2F4;
+			remoteInfo = Blocker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E9E10CAE2B59ED090023B2F4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E9E10C972B59ED090023B2F4 /* TinyBlocker Extension.appex in Embed Foundation Extensions */,
+				E9E10CC32B59ED620023B2F4 /* Blocker.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E9AF400E2B735CCE009F849F /* msn.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = msn.js; sourceTree = "<group>"; };
+		E9B413852B6AE630007E6FB1 /* disabled.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = disabled.pdf; sourceTree = "<group>"; };
+		E9B413872B6AF2CB007E6FB1 /* blockerListDisabled.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerListDisabled.json; sourceTree = "<group>"; };
+		E9E10C7A2B59ED080023B2F4 /* TinyBlocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyBlocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E10C7D2B59ED080023B2F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9E10C812B59ED080023B2F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		E9E10C832B59ED080023B2F4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E9E10C852B59ED080023B2F4 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		E9E10C872B59ED080023B2F4 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		E9E10C892B59ED080023B2F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9E10C8C2B59ED080023B2F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9E10C8E2B59ED080023B2F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9E10C902B59ED080023B2F4 /* TinyBlocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TinyBlocker.entitlements; sourceTree = "<group>"; };
+		E9E10C912B59ED080023B2F4 /* TinyBlocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TinyBlocker.entitlements; sourceTree = "<group>"; };
+		E9E10C962B59ED090023B2F4 /* TinyBlocker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TinyBlocker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E10C9B2B59ED090023B2F4 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		E9E10CA02B59ED090023B2F4 /* yt.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = yt.js; sourceTree = "<group>"; };
+		E9E10CA22B59ED090023B2F4 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		E9E10CA72B59ED090023B2F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9E10CA82B59ED090023B2F4 /* TinyBlocker_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TinyBlocker_Extension.entitlements; sourceTree = "<group>"; };
+		E9E10CB62B59ED620023B2F4 /* Blocker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Blocker.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E10CB82B59ED620023B2F4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E9E10CBB2B59ED620023B2F4 /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		E9E10CBD2B59ED620023B2F4 /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
+		E9E10CBF2B59ED620023B2F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9E10CC02B59ED620023B2F4 /* Blocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Blocker.entitlements; sourceTree = "<group>"; };
+		E9F7452C2B60F6DB00F6BC1F /* msm.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = msm.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9E10C772B59ED080023B2F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E10C932B59ED090023B2F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E10CB32B59ED620023B2F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E10CB92B59ED620023B2F4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9E10C712B59ED080023B2F4 = {
+			isa = PBXGroup;
+			children = (
+				E9E10C7C2B59ED080023B2F4 /* TinyBlocker */,
+				E9E10C9A2B59ED090023B2F4 /* TinyBlocker Extension */,
+				E9E10CBA2B59ED620023B2F4 /* Blocker */,
+				E9E10CB72B59ED620023B2F4 /* Frameworks */,
+				E9E10C7B2B59ED080023B2F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9E10C7B2B59ED080023B2F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9E10C7A2B59ED080023B2F4 /* TinyBlocker.app */,
+				E9E10C962B59ED090023B2F4 /* TinyBlocker Extension.appex */,
+				E9E10CB62B59ED620023B2F4 /* Blocker.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9E10C7C2B59ED080023B2F4 /* TinyBlocker */ = {
+			isa = PBXGroup;
+			children = (
+				E9E10C7D2B59ED080023B2F4 /* AppDelegate.swift */,
+				E9E10C892B59ED080023B2F4 /* ViewController.swift */,
+				E9E10C8B2B59ED080023B2F4 /* Main.storyboard */,
+				E9E10C8E2B59ED080023B2F4 /* Assets.xcassets */,
+				E9E10C902B59ED080023B2F4 /* TinyBlocker.entitlements */,
+				E9E10C912B59ED080023B2F4 /* TinyBlocker.entitlements */,
+				E9E10C7F2B59ED080023B2F4 /* Resources */,
+			);
+			path = TinyBlocker;
+			sourceTree = "<group>";
+		};
+		E9E10C7F2B59ED080023B2F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9E10C802B59ED080023B2F4 /* Main.html */,
+				E9E10C832B59ED080023B2F4 /* Icon.png */,
+				E9E10C852B59ED080023B2F4 /* Style.css */,
+				E9E10C872B59ED080023B2F4 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E9E10C9A2B59ED090023B2F4 /* TinyBlocker Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E9E10C9B2B59ED090023B2F4 /* SafariExtensionHandler.swift */,
+				E9E10CA72B59ED090023B2F4 /* Info.plist */,
+				E9E10CA82B59ED090023B2F4 /* TinyBlocker_Extension.entitlements */,
+				E9E10C9F2B59ED090023B2F4 /* Resources */,
+			);
+			path = "TinyBlocker Extension";
+			sourceTree = "<group>";
+		};
+		E9E10C9F2B59ED090023B2F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9AF400E2B735CCE009F849F /* msn.js */,
+				E9B413852B6AE630007E6FB1 /* disabled.pdf */,
+				E9E10CA02B59ED090023B2F4 /* yt.js */,
+				E9E10CA22B59ED090023B2F4 /* ToolbarItemIcon.pdf */,
+				E9F7452C2B60F6DB00F6BC1F /* msm.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E9E10CB72B59ED620023B2F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9E10CB82B59ED620023B2F4 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9E10CBA2B59ED620023B2F4 /* Blocker */ = {
+			isa = PBXGroup;
+			children = (
+				E9E10CBD2B59ED620023B2F4 /* ContentBlockerRequestHandler.swift */,
+				E9E10CBB2B59ED620023B2F4 /* blockerList.json */,
+				E9B413872B6AF2CB007E6FB1 /* blockerListDisabled.json */,
+				E9E10CBF2B59ED620023B2F4 /* Info.plist */,
+				E9E10CC02B59ED620023B2F4 /* Blocker.entitlements */,
+			);
+			path = Blocker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9E10C792B59ED080023B2F4 /* TinyBlocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9E10CAF2B59ED090023B2F4 /* Build configuration list for PBXNativeTarget "TinyBlocker" */;
+			buildPhases = (
+				E9E10C762B59ED080023B2F4 /* Sources */,
+				E9E10C772B59ED080023B2F4 /* Frameworks */,
+				E9E10C782B59ED080023B2F4 /* Resources */,
+				E9E10CAE2B59ED090023B2F4 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9E10C992B59ED090023B2F4 /* PBXTargetDependency */,
+				E9E10CC22B59ED620023B2F4 /* PBXTargetDependency */,
+			);
+			name = TinyBlocker;
+			productName = TinyBlocker;
+			productReference = E9E10C7A2B59ED080023B2F4 /* TinyBlocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9E10C952B59ED090023B2F4 /* TinyBlocker Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9E10CAB2B59ED090023B2F4 /* Build configuration list for PBXNativeTarget "TinyBlocker Extension" */;
+			buildPhases = (
+				E9E10C922B59ED090023B2F4 /* Sources */,
+				E9E10C932B59ED090023B2F4 /* Frameworks */,
+				E9E10C942B59ED090023B2F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TinyBlocker Extension";
+			productName = "TinyBlocker Extension";
+			productReference = E9E10C962B59ED090023B2F4 /* TinyBlocker Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E9E10CB52B59ED620023B2F4 /* Blocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9E10CC42B59ED620023B2F4 /* Build configuration list for PBXNativeTarget "Blocker" */;
+			buildPhases = (
+				E9E10CB22B59ED620023B2F4 /* Sources */,
+				E9E10CB32B59ED620023B2F4 /* Frameworks */,
+				E9E10CB42B59ED620023B2F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blocker;
+			productName = Blocker;
+			productReference = E9E10CB62B59ED620023B2F4 /* Blocker.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9E10C722B59ED080023B2F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					E9E10C792B59ED080023B2F4 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					E9E10C952B59ED090023B2F4 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					E9E10CB52B59ED620023B2F4 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = E9E10C752B59ED080023B2F4 /* Build configuration list for PBXProject "TinyBlocker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9E10C712B59ED080023B2F4;
+			productRefGroup = E9E10C7B2B59ED080023B2F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9E10C792B59ED080023B2F4 /* TinyBlocker */,
+				E9E10C952B59ED090023B2F4 /* TinyBlocker Extension */,
+				E9E10CB52B59ED620023B2F4 /* Blocker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9E10C782B59ED080023B2F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E10C842B59ED080023B2F4 /* Icon.png in Resources */,
+				E9E10C8D2B59ED080023B2F4 /* Main.storyboard in Resources */,
+				E9E10C882B59ED080023B2F4 /* Script.js in Resources */,
+				E9E10C822B59ED080023B2F4 /* Main.html in Resources */,
+				E9E10C8F2B59ED080023B2F4 /* Assets.xcassets in Resources */,
+				E9E10C862B59ED080023B2F4 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E10C942B59ED090023B2F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AF400F2B735CCE009F849F /* msn.js in Resources */,
+				E9F7452D2B60F6DB00F6BC1F /* msm.js in Resources */,
+				E9B413862B6AE630007E6FB1 /* disabled.pdf in Resources */,
+				E9E10CA32B59ED090023B2F4 /* ToolbarItemIcon.pdf in Resources */,
+				E9E10CA12B59ED090023B2F4 /* yt.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E10CB42B59ED620023B2F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B413882B6AF2CB007E6FB1 /* blockerListDisabled.json in Resources */,
+				E9E10CBC2B59ED620023B2F4 /* blockerList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9E10C762B59ED080023B2F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E10C8A2B59ED080023B2F4 /* ViewController.swift in Sources */,
+				E9E10C7E2B59ED080023B2F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E10C922B59ED090023B2F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E10C9C2B59ED090023B2F4 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E10CB22B59ED620023B2F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E10CBE2B59ED620023B2F4 /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9E10C992B59ED090023B2F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9E10C952B59ED090023B2F4 /* TinyBlocker Extension */;
+			targetProxy = E9E10C982B59ED090023B2F4 /* PBXContainerItemProxy */;
+		};
+		E9E10CC22B59ED620023B2F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9E10CB52B59ED620023B2F4 /* Blocker */;
+			targetProxy = E9E10CC12B59ED620023B2F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9E10C802B59ED080023B2F4 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9E10C812B59ED080023B2F4 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		E9E10C8B2B59ED080023B2F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9E10C8C2B59ED080023B2F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9E10CA92B59ED090023B2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9E10CAA2B59ED090023B2F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E9E10CAC2B59ED090023B2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "TinyBlocker Extension/TinyBlocker_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4H8FFXXPM4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TinyBlocker Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TinyBlocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WiseDev.TinyBlocker.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E9E10CAD2B59ED090023B2F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "TinyBlocker Extension/TinyBlocker_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4H8FFXXPM4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TinyBlocker Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TinyBlocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WiseDev.TinyBlocker.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E9E10CB02B59ED090023B2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TinyBlocker/TinyBlocker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4H8FFXXPM4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TinyBlocker;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WiseDev.TinyBlocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E9E10CB12B59ED090023B2F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TinyBlocker/TinyBlocker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4H8FFXXPM4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TinyBlocker;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WiseDev.TinyBlocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E9E10CC52B59ED620023B2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Blocker/Blocker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4H8FFXXPM4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Blocker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Blocker;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WiseDev.TinyBlocker.Blocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E9E10CC62B59ED620023B2F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Blocker/Blocker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4H8FFXXPM4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Blocker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Blocker;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WiseDev.TinyBlocker.Blocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9E10C752B59ED080023B2F4 /* Build configuration list for PBXProject "TinyBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E10CA92B59ED090023B2F4 /* Debug */,
+				E9E10CAA2B59ED090023B2F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9E10CAB2B59ED090023B2F4 /* Build configuration list for PBXNativeTarget "TinyBlocker Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E10CAC2B59ED090023B2F4 /* Debug */,
+				E9E10CAD2B59ED090023B2F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9E10CAF2B59ED090023B2F4 /* Build configuration list for PBXNativeTarget "TinyBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E10CB02B59ED090023B2F4 /* Debug */,
+				E9E10CB12B59ED090023B2F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9E10CC42B59ED620023B2F4 /* Build configuration list for PBXNativeTarget "Blocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E10CC52B59ED620023B2F4 /* Debug */,
+				E9E10CC62B59ED620023B2F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9E10C722B59ED080023B2F4 /* Project object */;
+}
