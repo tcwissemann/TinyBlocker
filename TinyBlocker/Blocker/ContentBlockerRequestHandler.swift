@@ -8,7 +8,7 @@
 //test with "https://d3ward.github.io/toolz/adblock"
 
 import Foundation
-import os.log
+
 
 class ContentBlockerRequestHandler: NSObject, NSExtensionRequestHandling {
     func beginRequest(with context: NSExtensionContext) {
@@ -17,7 +17,7 @@ class ContentBlockerRequestHandler: NSObject, NSExtensionRequestHandling {
 
         let currentState = sharedUserDefaults?.bool(forKey: "tinyBlockerState") ?? true
 
-        os_log("content blocking enabled %d", currentState)
+        NSLog("content blocking enabled %d from the contentBLOCKER!", currentState)
         
         let attachment = NSItemProvider(contentsOf: Bundle.main.url(forResource: "blockerList", withExtension: "json"))!
         let attachment_disabled = NSItemProvider(contentsOf: Bundle.main.url(forResource: "blockerListDisabled", withExtension: "json"))!

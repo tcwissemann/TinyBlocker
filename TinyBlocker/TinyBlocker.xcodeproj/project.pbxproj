@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9A3F6AD2B96E7690036FE3D /* hulu.js in Resources */ = {isa = PBXBuildFile; fileRef = E9A3F6AC2B96E7690036FE3D /* hulu.js */; };
+		E9AF73EC2BFE8B2000CB6368 /* ig.js in Resources */ = {isa = PBXBuildFile; fileRef = E9AF73EB2BFE8B2000CB6368 /* ig.js */; };
 		E9B413862B6AE630007E6FB1 /* disabled.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E9B413852B6AE630007E6FB1 /* disabled.pdf */; };
 		E9B413882B6AF2CB007E6FB1 /* blockerListDisabled.json in Resources */ = {isa = PBXBuildFile; fileRef = E9B413872B6AF2CB007E6FB1 /* blockerListDisabled.json */; };
 		E9E10C7E2B59ED080023B2F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E10C7D2B59ED080023B2F4 /* AppDelegate.swift */; };
@@ -61,6 +63,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E91861122B85272C00987FE2 /* TinyBlockerDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TinyBlockerDebug.entitlements; sourceTree = "<group>"; };
+		E9A3F6AC2B96E7690036FE3D /* hulu.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = hulu.js; sourceTree = "<group>"; };
+		E9AF73EB2BFE8B2000CB6368 /* ig.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = ig.js; sourceTree = "<group>"; };
 		E9B413852B6AE630007E6FB1 /* disabled.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = disabled.pdf; sourceTree = "<group>"; };
 		E9B413872B6AF2CB007E6FB1 /* blockerListDisabled.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerListDisabled.json; sourceTree = "<group>"; };
 		E9E10C7A2B59ED080023B2F4 /* TinyBlocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyBlocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,7 +78,6 @@
 		E9E10C8C2B59ED080023B2F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9E10C8E2B59ED080023B2F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9E10C902B59ED080023B2F4 /* TinyBlocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TinyBlocker.entitlements; sourceTree = "<group>"; };
-		E9E10C912B59ED080023B2F4 /* TinyBlocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TinyBlocker.entitlements; sourceTree = "<group>"; };
 		E9E10C962B59ED090023B2F4 /* TinyBlocker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TinyBlocker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E10C9B2B59ED090023B2F4 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
 		E9E10CA02B59ED090023B2F4 /* yt.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = yt.js; sourceTree = "<group>"; };
@@ -139,12 +143,12 @@
 		E9E10C7C2B59ED080023B2F4 /* TinyBlocker */ = {
 			isa = PBXGroup;
 			children = (
+				E91861122B85272C00987FE2 /* TinyBlockerDebug.entitlements */,
 				E9E10C7D2B59ED080023B2F4 /* AppDelegate.swift */,
 				E9E10C892B59ED080023B2F4 /* ViewController.swift */,
 				E9E10C8B2B59ED080023B2F4 /* Main.storyboard */,
 				E9E10C8E2B59ED080023B2F4 /* Assets.xcassets */,
 				E9E10C902B59ED080023B2F4 /* TinyBlocker.entitlements */,
-				E9E10C912B59ED080023B2F4 /* TinyBlocker.entitlements */,
 				E9E10C7F2B59ED080023B2F4 /* Resources */,
 			);
 			path = TinyBlocker;
@@ -179,6 +183,8 @@
 				E9E10CA02B59ED090023B2F4 /* yt.js */,
 				E9E10CA22B59ED090023B2F4 /* ToolbarItemIcon.pdf */,
 				E9F7452C2B60F6DB00F6BC1F /* msm.js */,
+				E9A3F6AC2B96E7690036FE3D /* hulu.js */,
+				E9AF73EB2BFE8B2000CB6368 /* ig.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -319,6 +325,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9AF73EC2BFE8B2000CB6368 /* ig.js in Resources */,
+				E9A3F6AD2B96E7690036FE3D /* hulu.js in Resources */,
 				E9F7452D2B60F6DB00F6BC1F /* msm.js in Resources */,
 				E9B413862B6AE630007E6FB1 /* disabled.pdf in Resources */,
 				E9E10CA32B59ED090023B2F4 /* ToolbarItemIcon.pdf in Resources */,
@@ -584,7 +592,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = TinyBlocker/TinyBlocker.entitlements;
+				CODE_SIGN_ENTITLEMENTS = TinyBlocker/TinyBlockerDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;

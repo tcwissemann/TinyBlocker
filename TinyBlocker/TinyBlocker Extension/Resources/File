@@ -1,0 +1,9 @@
+document.querySelectorAll('span').forEach(span => {
+    if (span.textContent.trim().toLowerCase() === 'sponsored') {
+        let article = span.closest('article');
+        if (article) {
+            article.remove();
+        }
+    }
+});
+

@@ -5,7 +5,7 @@
         },
         "action": {
             "type": "css-display-none",
-            "selector": ".AdBox, .Ad, .advert, .post-ads, .textads, .banner-ads, .banner_ads, .ad-unit, .afs_ads, .ad-zone, .ad-space, .adsbox, .ad-wrapper, .rad-ad-wrapper, .ad, .rad-ad, .rad-top-ad, .top-ad, .PagePromo, .Advertisement, .ad-placement, .ad-slot-header__wrapper, .ad-slot-header, .top-ads-container, .ad-place, .ms-displayad-container, #displayAdCard, in-feed-native-ad[adlabeltext=\"advertisement\"], .views-linear-feed-native-ad-container, .vd-ad, .display-ads-container, .msft-content-native-ad-preview-wrapper, .native-ad-container, .native-ad-multi, .native-ad-multi-river, .nativeAd, cs-native-ad-card[class=\"card-container\"], .bing-native-ad, .dynamicRRWrapper, .medianetintraarticlenativead, .nativeAd-DS-card1-1,.nativeadserversidecontentmodule, .sameoab_ad_container, .serversidenativead.secondary, .widead, a.nativead[target=\"_blank\"], div[class^=\"articlePage_topBannerAdContainer_\"], div[data-section-id=\"sponsored.stripe.shopping\"], [data-t=\"{&quot;n&quot;:&quot;NativeAd&quot;\"], .zone__ads, .container__ads, .stack__ads, .product-zone, aside[aria-label=\"advertisement\"], .ad-container, .partner-placement"
+            "selector": ".AdBox, .Ad, .advert, .post-ads, .textads, .banner-ads, .banner_ads, .ad-unit, .afs_ads, .ad-zone, .ad-space, .adsbox, .ad-wrapper, .rad-ad-wrapper, .ad, .rad-ad, .rad-top-ad, .top-ad, .PagePromo, .Advertisement, .ad-placement, .ad-slot-header__wrapper, .ad-slot-header, .top-ads-container, .ad-place, .ms-displayad-container, #displayAdCard, in-feed-native-ad[adlabeltext=\"advertisement\"], .views-linear-feed-native-ad-container, .vd-ad, .display-ads-container, .msft-content-native-ad-preview-wrapper, .native-ad-container, .native-ad-multi, .native-ad-multi-river, .nativeAd, cs-native-ad-card[class=\"card-container\"], .bing-native-ad, .dynamicRRWrapper, .medianetintraarticlenativead, .nativeAd-DS-card1-1,.nativeadserversidecontentmodule, .sameoab_ad_container, .serversidenativead.secondary, .widead, a.nativead[target=\"_blank\"], div[class^=\"articlePage_topBannerAdContainer_\"], div[data-section-id=\"sponsored.stripe.shopping\"], [data-t=\"{&quot;n&quot;:&quot;NativeAd&quot;\"], .zone__ads, .container__ads, .stack__ads, .product-zone, aside[aria-label=\"advertisement\"], .ad-container, .partner-placement, .ads_container, .ad-slot"
         }
     },
     {
@@ -1320,6 +1320,14 @@
         },
         "action": {
             "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": ".*ads-e-darwin.hulustream.com.*"
+        },
+        "action": {
+            "type": "block"
         }
     }
 ]
